@@ -1,0 +1,100 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color:linear-gradient(to right,#fof4f8,#e0f7fa);
+  color:#333;
+}
+
+header {
+  background-color: #2e3a59;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+  vertical-align: middle;
+}
+
+nav {
+  background-color: #1c2537;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 15px 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  background-color:#ffe066;
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+.section-card {
+  background: white;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.07);
+  margin-bottom: 40px;
+  color:#555;
+}
+
+.categories {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.category {
+  flex: 1 1 300px;
+  background-color: #ffff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.category img {
+  width: 100px;
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+.category button {
+  padding: 10px 20px;
+  background-color: #2e3a59;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.category button:hover {
+  background-color: #ffa500;
+  color: black;
+}
+
+footer {
+  background-color: #2e3a59;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .categories {
+    flex-direction: column;
+    align-items: center;
+  }
+}
